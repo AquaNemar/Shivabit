@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mining Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="script.js" defer></script> <!-- 'script.js' modül olarak tanımlandı -->
+</head>
+<body>
+    <div id="matrix"></div> <!-- Matrix efekti için yeni div -->
+    <div id="header">
+        <div id="telegram-username">Kullanıcı Adı</div>
+        <div id="score">Puan: 0</div>
+    </div>
+    <div id="container">
+        <div id="content">
+            <div id="image-container">
+                <img src="https://i.hizliresim.com/8uunpvf.png" alt="Coin Image" class="coin icon" id="coin">
+            </div>
+            <div id="status">
+                <div id="status-text">
+                    <img src="https://i.hizliresim.com/8uunpvf.png" alt="Coin Icon" class="status-icon">
+                    <span id="instant-icon"></span> 
+                    <img src="https://i.hizliresim.com/m4hxesw.png" alt="Clock Icon" class="status-clock">
+                    <span id="countdown">00.00</span>
+                </div>
+            </div>
+            <button id="start-button">Start Mining</button>
+            <button id="pickup-button">Pickup Coins</button>
+        </div>
+    </div>
+    <button id="boost-button" onclick="window.location.href='boost.html'">
+        <img src="İmage/shuttle.png" alt="Boost Icon" class="boost-icon">
+        <span>Boost</span>
+    </button>
+    <div id="footer">
+        <a href="#"><img src="İmage/invitation.png" alt="Icon 1"><span>Task</span></a>
+        <a href="#"><img src="İmage/console.png" alt="Icon 2"><span>Game</span></a>
+        <a href="#"><img src="İmage/invitation.png" alt="Icon 3"><span>Invite</span></a>
+    </div>
+</body>
+</html>
